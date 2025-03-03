@@ -24,8 +24,8 @@ app.add_middleware(
 )
 
 
-# Configure generative AI
-API = "AIzaSyCHRT6oCXDHvaSEfuAjZeLOqNWUu43bnuU"
+# Configure generative AI remove 1
+API = "AIzaSyCHRT6oCXDHvaSEfuAjZeLOqNWUu43bnuU1"
 genai.configure(api_key=API)
 model1 = genai.GenerativeModel("gemini-1.5-flash")
 
